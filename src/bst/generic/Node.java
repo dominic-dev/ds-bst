@@ -1,6 +1,12 @@
 package bst.generic;
 
 
+/**
+ * Generic node for Binary Search Tree
+ * 
+ * @author dominic
+ **/
+
 public class Node<E extends Comparable<E>> implements Comparable<Node<E>>{
 
     private E element;

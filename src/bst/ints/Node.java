@@ -1,5 +1,11 @@
 package bst.ints;
 
+/**
+ * int Node for Binary Search Tree
+ * 
+ * @author dominic
+ */
+
 
 public class Node implements Comparable<Node>{
 

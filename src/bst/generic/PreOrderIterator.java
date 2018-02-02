@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
+ * Pre order iterator for Node<E>
+ * 
  * @author dominic
- *
  */
+
 public class PreOrderIterator<E extends Comparable<E>> implements Iterator<Node<E>> {
     private ArrayList<Node<E>> contents;
     private int pointer = 0;

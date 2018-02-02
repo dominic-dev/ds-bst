@@ -1,6 +1,3 @@
-/**
- * 
- */
 package bst.generic;
 
 import java.util.ArrayList;
@@ -10,9 +7,11 @@ import java.util.Iterator;
 
 
 /**
+ * Generic Binary Search Tree
+ * 
  * @author dominic
- *
  */
+
 public class BinarySearchTree<E extends Comparable<E>> implements Collection<Node<E>>{
 
     private Node<E> root = null;

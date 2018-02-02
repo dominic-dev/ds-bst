@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
+ * In order iterator for Node
+ * 
  * @author dominic
- *
  */
+
 public class InOrderIterator implements Iterator<Node> {
     private ArrayList<Node> contents;
     private int pointer = 0;

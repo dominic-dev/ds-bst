@@ -1,6 +1,3 @@
-/**
- * 
- */
 package bst.ints;
 
 import java.util.ArrayList;
@@ -8,9 +5,11 @@ import java.util.Collection;
 import java.util.Iterator;
 
 /**
+ * Binary Search Tree for int
+ * 
  * @author dominic
- *
  */
+
 public class BinarySearchTree implements Collection<Node>{
 
     private Node root = null;
