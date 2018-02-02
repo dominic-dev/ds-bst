@@ -116,7 +116,7 @@ public class Node implements Comparable<Node>{
     }
 
     /**
-     * Return if the target gnode dis found in the children recursively.
+     * Return if the target node is found in the children recursively.
      * @param target the target node.
      * @return true if and only if the node is found in the children recursively.
      **/
