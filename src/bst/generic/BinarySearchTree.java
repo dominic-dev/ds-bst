@@ -38,7 +38,8 @@ public class BinarySearchTree<E extends Comparable<E>> implements Collection<Nod
 
     /**
      * Add an object of type E to the tree.
-     * @param E the object to add.
+     * @param e the object to add.
+     * @return true if and only if the object is added succesfully.
      **/
     public boolean add(E e){
         Node<E> node = new Node<>(e);

@@ -92,6 +92,7 @@ public class Node implements Comparable<Node>{
     /**
      * Add a child node to node.
      * @param newNode the node to add.
+     * @return true if and only if the node is added succesfully.
      **/
     public boolean add(Node newNode){
         // newNode < this
